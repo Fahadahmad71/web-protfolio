@@ -1,0 +1,48 @@
+/* body common commom */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color:  #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding:15px 35px;
+}
+
+/* nav menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.site-title {
+    color: #FD6E0A;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
