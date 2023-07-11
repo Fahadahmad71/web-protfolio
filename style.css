@@ -137,14 +137,39 @@ main {
 .info-box h4 {
     margin-top: 5px;
 }
-
+.collapse {
+    margin:100px 0;
+}
 .collapse-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.collapse-des{
-    padding:0px 150px 30px 150px;
+
+.collapse-des {
+    padding: 0px 150px 30px 150px;
     text-align: center;
+}
+
+.skills-contain {
+    display: flex;
+
+    gap: 25px;
+}
+
+.skill-info {
+    padding: 30px;
+    border-radius: 5px;
+    background: #f8e1d1;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-des {
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.resume{
+    margin-bottom:100px ;
 }
