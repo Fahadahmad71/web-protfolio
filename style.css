@@ -137,9 +137,11 @@ main {
 .info-box h4 {
     margin-top: 5px;
 }
+
 .collapse {
-    margin:100px 0;
+    margin: 100px 0;
 }
+
 .collapse-title {
     color: #181818;
     text-align: center;
@@ -166,10 +168,17 @@ main {
 }
 
 .skill-des {
-    color:  #757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
 }
-.resume{
-    margin-bottom:100px ;
+
+.resume {
+    margin-bottom: 100px;
+}
+
+.resume-title {
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
