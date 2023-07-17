@@ -260,3 +260,42 @@ textarea {
 .social-icon a{
     margin-right:25px;
 }
+@media screen and (max-width:576px){
+    .collapse-des {
+        padding: 10px;
+        text-align: center;
+    }
+    .skills-contain{
+        flex-direction: column;
+    }
+    .skill-info {
+        padding: 20px;
+        
+    }
+    .info-contain {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about {
+        padding: 30px;
+        
+    }
+    .section-des {
+       font-size: 14px;
+       
+    }
+    .banner {
+       
+      flex-direction: column;
+        
+    
+    }
+    .resume-contains{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:0;
+      
+    }
+    
+
+}
