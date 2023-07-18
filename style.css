@@ -283,7 +283,7 @@ textarea {
         .contact input[type='text'],
         input[type='email'],
         textarea{
-            width:80%;
+            width:70%;
         }
         .header{
             background-image: none;
@@ -305,7 +305,10 @@ textarea {
             width:50%;
         }
         .btn-primary{
-            margin-bottom: 20px;;
+            margin-top: 20px;;
+        }
+        .info-contain{
+            flex-direction: column;
         }
             
     }
