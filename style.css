@@ -210,7 +210,7 @@ main {
 }
 
 .resume-contains hr {
-    margin: 30px 0;
+    margin: 30px 30;
 }
 
 .download-cv {
@@ -260,42 +260,53 @@ textarea {
 .social-icon a{
     margin-right:25px;
 }
-@media screen and (max-width:576px){
-    .collapse-des {
-        padding: 10px;
-        text-align: center;
-    }
-    .skills-contain{
-        flex-direction: column;
-    }
-    .skill-info {
-        padding: 20px;
-        
-    }
-    .info-contain {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .about {
-        padding: 30px;
-        
-    }
-    .section-des {
-       font-size: 14px;
-       
-    }
-    .banner {
-       
-      flex-direction: column;
-        
-    
-    }
-    .resume-contains{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap:0;
-      
-    }
-    
 
-}
+    @media screen and (max-width:576px){
+        .skills-contain, .resume-contains, footer, .info-contain, .banner, nav, nav> ul{
+            flex-direction: column;
+        }
+        #desede{
+            padding:20px;
+        }
+        nav >ul{
+            gap:20px;
+        }
+        footer, .about, .banner{
+            padding:10px;
+        }
+        .footer-colum{
+            width:100%;
+        }
+        .btn-primary{
+            margin-bottom: 20px;;
+        }
+        .contact input[type='text'],
+        input[type='email'],
+        textarea{
+            width:80%;
+        }
+        .header{
+            background-image: none;
+        }
+        .banner img{
+            width:200px;
+        }
+
+    }
+    @media screen and (min-width:576px) and (max-width:992px) {
+        .skills-contain, .resume-contains{
+            flex-direction: column;}
+            footer{
+                padding: 10px;;
+            }
+            .contact input[type='text'],
+        input[type='email'],
+        textarea{
+            width:50%;
+        }
+        .btn-primary{
+            margin-bottom: 20px;;
+        }
+            
+    }
+
